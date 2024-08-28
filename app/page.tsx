@@ -44,7 +44,7 @@ export default function Home() {
           />
           <div className="flex flex-col justify-center items-center max-[620px]:mt-10">
             <Image
-              src="/qr whatsapp.png"
+              src="/qrwhatsapp.png"
               width={150}
               height={150}
               className="object-contain"
