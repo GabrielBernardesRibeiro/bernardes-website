@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between px-10 pt-10 h-full w-full">
-      <header className="flex flex-row justify-between w-full">
+      <header className="flex flex-row justify-between w-full custom-hidden-on-mobile">
         <Image
           src="/logoWithA.png"
           width={250}
@@ -42,7 +42,22 @@ export default function Home() {
             className="object-contain "
             alt="logoBernardes"
           /> */}
-          <div className="flex flex-col justify-center items-center max-[620px]:mt-10">
+          <div className="flex flex-col justify-center items-center max-[620px]:mt-10 custom-justify-on-mobile">
+            <Image
+              src="/logoWithA.png"
+              width={250}
+              height={100}
+              objectFit="contain"
+              className="object-contain mb-5 max-[488px]:w-48"
+              alt="logoImage"
+            />
+            <Image
+              src="/cau branco.png"
+              width={200}
+              height={100}
+              className="object-contain mb-12 "
+              alt="cauLogo"
+            />
             <Image
               src="/qrwhatsapp.png"
               width={150}

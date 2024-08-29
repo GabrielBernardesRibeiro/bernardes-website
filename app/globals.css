@@ -9,3 +9,13 @@
 body {
   background: var(--background-color);
 }
+
+@media (max-width: 488px) {
+  .custom-hidden-on-mobile {
+    display: none;
+  }
+
+  .custom-justify-on-mobile {
+    justify-content: center;
+  }
+}
