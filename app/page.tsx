@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between px-10 pt-10 h-full w-full">
       <header className="flex flex-row justify-between w-full">
         <Image
-          src="/Logo com A.png"
+          src="/logoWithA.png"
           width={250}
           height={100}
           objectFit="contain"
