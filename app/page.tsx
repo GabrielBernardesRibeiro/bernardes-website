@@ -66,7 +66,7 @@ export default function Home() {
                 className="text-white cursor-pointer"
                 style={{ fontSize: 22 }}
               >
-                (11) 9 8803-0550
+                (11) 9 7636-1971
               </Link>
             </div>
           </div>
