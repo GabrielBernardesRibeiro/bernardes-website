@@ -10,9 +10,17 @@ body {
   background: var(--background-color);
 }
 
+.custom-show-on-mobile {
+  display: none;
+}
+
 @media (max-width: 488px) {
   .custom-hidden-on-mobile {
     display: none;
+  }
+
+  .custom-show-on-mobile {
+    display: block;
   }
 
   .custom-justify-on-mobile {

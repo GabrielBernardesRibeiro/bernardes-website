@@ -48,14 +48,14 @@ export default function Home() {
               width={250}
               height={100}
               objectFit="contain"
-              className="object-contain mb-5 max-[488px]:w-48"
+              className="object-contain mb-5 max-[488px]:w-48 custom-show-on-mobile"
               alt="logoImage"
             />
             <Image
               src="/cau branco.png"
               width={200}
               height={100}
-              className="object-contain mb-12 "
+              className="object-contain mb-12 custom-show-on-mobile"
               alt="cauLogo"
             />
             <Image
