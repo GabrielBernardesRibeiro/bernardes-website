@@ -6,18 +6,18 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between px-10 pt-10 h-full w-full">
       <header className="flex flex-row justify-between w-full">
         <Image
-          src="/Logo A.png"
-          width={100}
+          src="/Logo com A.png"
+          width={250}
           height={100}
           objectFit="contain"
-          className="object-contain max-[425px]:w-24 max-[425px]:w-16"
+          className="object-contain max-[568px]:w-48 max-[488px]:w-36 max-[392px]:w-32 max-[349px]:w-22"
           alt="logoImage"
         />
         <Image
           src="/cau branco.png"
           width={200}
           height={100}
-          className="object-contain max-[425px]:w-48 max-[425px]:w-40 max-[320px]:w-32"
+          className="object-contain max-[488px]:w-44 max-[425px]:w-40 max-[392px]:w-32 max-[349px]:w-22"
           alt="cauLogo"
         />
       </header>
@@ -29,19 +29,19 @@ export default function Home() {
             height={100}
             className="w-full h-full object-cover z-10"
             style={{
-              filter: "blur(4px)",
+              filter: "blur(10px)",
             }}
             alt="bacgroundImage"
           />
         </div>
         <div className="flex flex-row items-center justify-evenly w-full z-20 max-[620px]:flex-col">
-          <Image
+          {/* <Image
             src="/logo Bernardes Branco.png"
             width={200}
             height={100}
             className="object-contain "
             alt="logoBernardes"
-          />
+          /> */}
           <div className="flex flex-col justify-center items-center max-[620px]:mt-10">
             <Image
               src="/qrwhatsapp.png"
